@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest",
+    "test": "jest --detectOpenHandles",
     "start": "node server.js"
   },
   "repository": {
@@ -32,6 +32,7 @@
     "express": "^4.18.1",
     "nodemon": "^2.0.20",
     "supertest": "^6.2.4",
+    "test": "^3.2.1",
     "webpack-dev-server": "^4.11.1",
     "zlib": "^1.0.5"
   }
