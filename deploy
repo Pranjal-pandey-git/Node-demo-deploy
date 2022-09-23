@@ -1,5 +1,4 @@
--#!/bin/sh
-ssh ec2-user@ip-172-31-23-29
+ssh -tt ec2-user@ip-172-31-23-29
 cd /Node-demo-deploy
 git pull
 npm install --production
