@@ -33,6 +33,6 @@ jobs:
     - name: Test Stage
       run: npm test
     - name: Kill other application on same instance
-      run: pm2 kill
+      run: sudo pm2 kill
     - name: Deploy
       run: npm start 
