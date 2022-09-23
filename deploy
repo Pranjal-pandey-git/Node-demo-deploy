@@ -2,5 +2,5 @@ ssh -tt ec2-user@ip-172-31-23-29
 cd /node-demo
 git pull https://github.com/Pranjal-pandey-git/Node-demo-deploy
 npm install --production
-pm2 restart Node-demo-deploy
+pm2 start
 exit
