@@ -2,7 +2,7 @@
   "name": "demo",
   "version": "1.0.0",
   "description": "demo tut",
-  "main": "app.js",
+  "main": "server.js",
   "directories": {
     "test": "test"
   },
