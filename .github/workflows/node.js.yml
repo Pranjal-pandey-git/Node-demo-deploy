@@ -35,4 +35,4 @@ jobs:
     - name: Kill other application on same instance
       run: pm2 kill
     - name: Deploy
-      run: npm start 
+      run: pm2 start server
