@@ -2,14 +2,14 @@
   "name": "demo",
   "version": "1.0.0",
   "description": "demo tut",
-  "main": "server.js",
+  "main": "app.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "jest --detectOpenHandles",
-    "start": "pm2 start server",
-    "dev":"nodemon server.js"
+    "start": "pm2 start server.js",
+    "dev":"nodemon app.js"
   },
   "jest": {
     "collectCoverage": true
