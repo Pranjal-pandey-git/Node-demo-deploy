@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "jest --detectOpenHandles",
-    "start": "pm2 start server.js",
-    "dev":"nodemon app.js"
+    "start": "pm2 start server",
+    "dev":"nodemon server.js"
   },
   "jest": {
     "collectCoverage": true
